@@ -1,0 +1,3 @@
+/home/pi/Embedded2/cgi/build/CMakeFiles/rebuild_cache.dir
+/home/pi/Embedded2/cgi/build/CMakeFiles/ENV-CGI.dir
+/home/pi/Embedded2/cgi/build/CMakeFiles/edit_cache.dir
