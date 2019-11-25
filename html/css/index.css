@@ -1,0 +1,25 @@
+  body, html {
+    padding: 3px 3px 3px 3px;
+
+    background-color: #D8DBE2;
+
+    font-family: Verdana, sans-serif;
+    font-size: 11pt;
+  }
+
+  table{
+    border: "1px solid black";
+    width : 50%;
+    margin-top : 20px;
+  }
+
+  table > th {
+    vertical-align: center;
+    text-align: center;
+  }
+
+  #getJSONButton{
+    margin-bottom: 20px;
+  }
+
+  

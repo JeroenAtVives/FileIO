@@ -1,0 +1,53 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Apache2 Debian Default Page: It works</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/index.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <button id="getJSONButton">getJSONButton</button>
+
+
+    <form action="http://pijeroen/cgi-bin/ENV-CGI.cgi" id="getDataForm" method="GET" target="blank" name="myForm1">
+
+      <label for="exampleInputText">Verzend data naar de cgi via get</label>
+
+      <div class="row form-group">
+        <div class="col">
+          <input type="text" name="dataveldget" class="form-control" id="exampleInputText" placeholder="Enter new data...">
+        </div>
+        <div class="col">
+          <button id="btnSubmitGet" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </form>
+
+    <form action="http://pijeroen/cgi-bin/ENV-CGI.cgi" id="postDataForm" method="POST" target="blank" name="myForm2">
+
+      <label for="exampleInputText">Verzend data naar de cgi via post</label>
+
+      <div class="row form-group">
+        <div class="col">
+          <input type="text" name="dataveldpost" class="form-control" id="exampleInputText" placeholder="Enter new data...">
+        </div>
+        <div class="col">
+          <button id="btnSubmitPost" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </form>
+
+    <table id="table"></table>
+  </body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="//code.jquery.com/jquery.js"></script>
+     <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script src="js/bootstrap.min.js"></script>
+
+     <script src="js/index.js"></script>
+  
+</html>
+
